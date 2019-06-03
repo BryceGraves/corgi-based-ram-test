@@ -1,6 +1,6 @@
 import webbrowser
 
-with open('.CorgisToInject.txt') as f:
+with open('../data/CorgisToInject.txt') as f:
     allPhotos = f.read().splitlines()
 
 for currentPhoto in allPhotos:
